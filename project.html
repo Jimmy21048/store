@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="project.css">
+    <title>Jimmy's online shop</title>
+</head>
+<body>
+    <div id="container">
+        <div class="selling-page">
+            <div class="header">
+                <p>NG'ARA fashions</p>
+                <div class="empty-container">Jimmy Rubia</div>
+                <div>
+                    <button onclick="clickedCart()"><i class="fa-solid fa-cart-shopping"></i>CART<p id="item-number">0</p></button>
+                    <button onclick="goBack()"><i class="fa-solid fa-house"></i>HOME</button>
+                </div>
+            </div>
+            <div id="cart-page">
+            
+            </div>
+            <div class="tabs">
+                <button onclick="clothes()">Clothes</button>
+                <button onclick="shoes()">Shoes</button>
+                <button onclick="beddings()">Beddings</button>
+            </div>
+            <div class="products">
+                <div id="selected-product">
+                    <div id="welcome-message">NG'ARA WELCOMES YOU... PLEASE BROWSE THROUGH OUR ITEMS</div>
+                </div>
+                <div class="other-products" id="clothes">
+
+                </div>
+                <div class="other-products"  id="shoes">
+
+                </div>
+                <div class="other-products" id="beddings">
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">LATEST PRODUCTS</div>
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>
